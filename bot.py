@@ -10,8 +10,8 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQu
 API_TOKEN = os.getenv('BOT_TOKEN')
 
 # Instagram va YouTube havolalari (o'zingiznikiga almashtiring)
-INSTAGRAM_LINK = https://www.youtube.com/channel/UC_9A2iaSGLvswTbQfX3Zvgw
-YOUTUBE_LINK = https://www.instagram.com/kino.taime/
+INSTAGRAM_LINK = "https://www.youtube.com/channel/UC_9A2iaSGLvswTbQfX3Zvgw"
+YOUTUBE_LINK = "https://www.instagram.com/kino.taime/"
 
 # Bot va Dispatcher obyektlarini yaratish
 bot = Bot(token=API_TOKEN)
