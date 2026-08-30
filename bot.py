@@ -52,8 +52,8 @@ def confirm_user(user_id: int):
 
 def subscribe_keyboard():
     kb = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="◉ Instagram", url=INSTAGRAM_LINK)],
-        [InlineKeyboardButton(text="▷ YouTube", url=YOUTUBE_LINK)],
+        [InlineKeyboardButton(text="💜📱💫 𝑰𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎", url=INSTAGRAM_LINK)],
+        [InlineKeyboardButton(text="🎬🔴🔥 𝒀𝒐𝒖𝑻𝒖𝒃𝒆", url=YOUTUBE_LINK)],
         [InlineKeyboardButton(text="✅ Obuna bo'ldim", callback_data="confirm_sub")]
     ])
     return kb
