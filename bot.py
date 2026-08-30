@@ -10,8 +10,8 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQu
 API_TOKEN = os.getenv('BOT_TOKEN')
 
 # Instagram va YouTube havolalari (o'zingiznikiga almashtiring)
-INSTAGRAM_LINK = "https://www.youtube.com/channel/UC_9A2iaSGLvswTbQfX3Zvgw"
-YOUTUBE_LINK = "https://www.instagram.com/kino.taime/"
+INSTAGRAM_LINK = "https://www.instagram.com/kino.taime/"
+YOUTUBE_LINK = "https://www.youtube.com/channel/UC_9A2iaSGLvswTbQfX3Zvgw"
 
 # Bot va Dispatcher obyektlarini yaratish
 bot = Bot(token=API_TOKEN)
@@ -52,8 +52,8 @@ def confirm_user(user_id: int):
 
 def subscribe_keyboard():
     kb = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="📸 Instagram", url=INSTAGRAM_LINK)],
-        [InlineKeyboardButton(text="▶️ YouTube", url=YOUTUBE_LINK)],
+        [InlineKeyboardButton(text="◉ Instagram", url=INSTAGRAM_LINK)],
+        [InlineKeyboardButton(text="▷ YouTube", url=YOUTUBE_LINK)],
         [InlineKeyboardButton(text="✅ Obuna bo'ldim", callback_data="confirm_sub")]
     ])
     return kb
